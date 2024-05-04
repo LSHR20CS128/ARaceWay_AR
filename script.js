@@ -1,4 +1,8 @@
 
+const beginnerBtn = document.querySelector(".btn");
+beginnerBtn.addEventListener("click", () => {
+   window.location.href = 'Intermediate.html';
+});
 
 const intermediateBtn = document.querySelector(".btn");
 intermediateBtn.addEventListener("click", () => {
